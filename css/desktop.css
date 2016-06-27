@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1024px) {
+  .box {
+    margin: 0% 10% 10% 10%;
+  }
+  .logo {
+    width: 20%;
+    padding-top: 2%;
+  }
+  .header-text, .header-subtext {
+    float: right;
+    padding: 1em 1em 1em 2em;
+  }
+
+  .text {
+    padding: 1em 1em 1em 3em;
+    font-size: 20px;
+    line-height: 200%;
+  }
+  .text1 {
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  #form1[type="text"] {
+    font-size: 15px;
+    width: 49.5%;
+    float: left;
+    font-family: 'Lato', sans-serif;
+    margin: 2% 0 4% 0;
+  }
+  #form2[type="email"] {
+    font-size: 15px;
+    width: 49.5%;
+    float: right;
+    font-family: 'Lato', sans-serif;
+    margin: 2% 0 4% 0;
+  }
+}
+
+

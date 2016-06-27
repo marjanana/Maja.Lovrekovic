@@ -1,0 +1,55 @@
+@media only screen and (min-width: 436px) and (max-width: 1023px) {
+  .box {
+    margin: 0% 6% 6% 6%;
+  }
+  .logo {
+    width: 30%;
+    padding: 3%;
+    float: left;
+  }
+  #header {
+    background-color: #ffb366;
+    background-color: #ffc999;
+    font-family: 'Cinzel', serif;
+    -webkit-box-shadow: 10px 14px 44px 6px rgba(186,108,24,0.88);
+    -moz-box-shadow: 10px 14px 44px 6px rgba(186,108,24,0.88);
+     box-shadow: 10px 14px 44px 6px rgba(186,108,24,0.88);
+  }
+  .header-text, .header-subtext {
+    padding: 1em 0em 1em 0em;
+    text-align: right;
+  }
+
+  .categories {
+  font-family: 'Cinzel', serif;
+  padding: 3% 0% 2% 4%;
+  color: #763B0C;
+  -webkit-box-shadow: 10px 14px 44px 6px rgba(186,108,24,0.88);
+  -moz-box-shadow: 10px 14px 44px 6px rgba(186,108,24,0.88);
+  box-shadow: 10px 14px 44px 6px rgba(186,108,24,0.88);
+  }
+  .text {
+    padding: 1em 1em 1em 3em;
+    font-size: 18px;
+    line-height: 200%;
+  }
+  .text1 {
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  #form1[type="text"] {
+        font-size: 15px;
+        width: 49.5%;
+        float: left;
+        font-family: 'Lato', sans-serif;
+        margin: 2% 0 4% 0;
+  }
+  #form2[type="email"] {
+        font-size: 15px;
+        width: 49.5%;
+        float: right;
+        font-family: 'Lato', sans-serif;
+        margin: 2% 0 4% 0;
+  }
+}

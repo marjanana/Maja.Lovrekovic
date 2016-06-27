@@ -1,0 +1,105 @@
+
+.box {
+  background-color: #fff2e6;
+}
+
+#header {
+  background-color: #ffc999;
+  font-family: 'Cinzel', serif;
+  -webkit-box-shadow: 10px 14px 44px 6px rgba(186,108,24,0.88);
+  -moz-box-shadow: 10px 14px 44px 6px rgba(186,108,24,0.88);
+   box-shadow: 10px 14px 44px 6px rgba(186,108,24,0.88);
+}
+
+.subtitle {
+  font-size: 20px;
+}
+.text {
+  font-family: 'Lato', sans-serif;
+}
+
+.text1 {
+  padding: 5%;
+}
+
+.categories {
+  font-family: 'Cinzel', serif;
+  padding: 3% 0% 2% 4%;
+  color: #763B0C;
+  -webkit-box-shadow: 10px 14px 44px 6px rgba(186,108,24,0.88);
+  -moz-box-shadow: 10px 14px 44px 6px rgba(186,108,24,0.88);
+  box-shadow: 10px 14px 44px 6px rgba(186,108,24,0.88);
+}
+.row {
+  padding: 2% 5% 2% 5%;
+}
+input {
+    max-width: 100%;
+    width: 90%;
+    border-radius: 5px;
+    margin: 0;
+    border: 5px solid white;
+    -webkit-box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin-bottom:10px;
+}
+textarea {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0;
+    border: 5px solid white;
+    -webkit-box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+#form2 [type="email"] {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0;
+    border: 5px solid white;
+    -webkit-box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1);
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+#submit[type="submit"] {
+    width: 150px;
+    border: 0.1px outset white;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9E4F10, to(#ffe6ff));
+    background: -webkit-linear-gradient(top, #9E4F10, #ffe6ff);
+    background: -moz-linear-gradient(top, #9E4F10, #ffe6ff);
+    background: -ms-linear-gradient(top, #9E4F10, #ffe6ff);
+    background: -o-linear-gradient(top, #9E4F10, #ffe6ff);
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    float: left;
+    margin: 0 0 3% 0;
+}
